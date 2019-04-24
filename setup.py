@@ -6,7 +6,7 @@ with open('README.md', mode='r') as fd:
     long_description = fd.read()
 
 setup(
-    name="python-find-awkawb",
+    name="python-find",
     version="0.1",
     packages=find_packages(),
 
