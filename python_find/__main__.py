@@ -15,4 +15,9 @@ if __name__ == '__main__':
         help='Regex expression used to search.')
 
     args = parser.parse_args()
-    find(args.root, args.name, args.file_type)
+
+    try:
+        find(args.root, args.name, args.file_type)
+
+    except KeyboardInterrupt:
+        pass
